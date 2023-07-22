@@ -1,10 +1,19 @@
-import Image from 'next/image'
 
+import Header from "@/components/Header"
 export default function Home() {
   return (
-    
-      <div className='text-red-500'>
-        Main Content
-      </div>
+
+    <div className='
+      bg-neutral-900
+      rounded-lg
+      h-full
+      w-full
+      oveflow-hidden
+      oveflow-y-auto
+      '>
+      <Header>
+        Header
+      </Header>
+    </div>
   )
 }
